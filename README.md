@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=700&center=true&vCenter=true&width=900&lines=Generative+AI+Engineer;Building+multi-agent+LLM+systems;Developing+enterprise+RAG+platforms;Scaling+AI+infrastructure+on+AWS+and+Azure)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=700&center=true&vCenter=true&width=900&lines=Generative+AI+Engineer;Building+multi-agent+LLM+systems;Developing+enterprise+RAG+platforms;Scaling+AI+infrastructure+on+AWS+and+Azure)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akarshana)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Akarshanamachanpally@gmail.com)
@@ -17,176 +17,177 @@
 
 ## About Me
 
-I am a **Generative AI Engineer with 4+ years of experience** building production-grade multi-agent LLM systems, Retrieval-Augmented Generation pipelines, and scalable AI infrastructure across healthcare, financial services, and retail.
+I am a **Generative AI Engineer with 4+ years of experience** building production-grade AI systems across healthcare, financial services, and retail.
 
-My core strengths include:
+My work focuses on:
 
-- Multi-agent AI systems and agentic workflows
-- Enterprise RAG and semantic search
-- LLM fine-tuning with LoRA, QLoRA, and PEFT
-- LLM inference with vLLM, Triton, TensorRT-LLM, and SageMaker
-- Responsible AI, hallucination monitoring, and prompt validation
-- Cloud-native deployment on AWS and Azure
+- Multi-agent LLM systems and agentic workflows
+- Enterprise Retrieval-Augmented Generation
+- LLM fine-tuning and optimized inference
+- Responsible AI and observability
+- AWS and Azure AI infrastructure
 - Machine learning and large-scale data engineering
+
+I enjoy turning ambiguous business problems into secure, measurable, and production-ready AI solutions.
+
+---
+
+## Selected Impact
+
+<table>
+<tr>
+<td align="center" width="25%">
+<h3>36%</h3>
+<p>Improvement in multi-turn LLM response accuracy</p>
+</td>
+<td align="center" width="25%">
+<h3>22%</h3>
+<p>Reduction in retail stockout incidents</p>
+</td>
+<td align="center" width="25%">
+<h3>40%</h3>
+<p>Reduction in Spark feature extraction time</p>
+</td>
+<td align="center" width="25%">
+<h3>4+ Years</h3>
+<p>Building production AI and ML systems</p>
+</td>
+</tr>
+</table>
 
 ---
 
 ## Featured Projects
 
-<details open>
-<summary><b>Enterprise Multi-Agent Healthcare Automation</b></summary>
+### Multi-Agent Healthcare Workflows
 
-### Overview
+A healthcare-focused agentic AI platform designed for document routing, retrieval, structured extraction, validation, and responsible AI controls.
 
-A healthcare-focused multi-agent AI platform designed to automate complex enterprise workflows using specialized agents for planning, retrieval, reasoning, validation, and approved action execution.
+**Key capabilities**
 
-### What It Demonstrates
+- Multi-agent orchestration
+- Context-aware document retrieval
+- Structured outputs with Pydantic
+- REST API integration
+- Guardrails and validation
+- Prompt and trace observability
 
-- Multi-agent orchestration using LangChain, AutoGen, and Agent K
-- Context-aware retrieval using LlamaIndex and vector databases
-- Structured response validation with Pydantic
-- Integration with Python microservices and REST APIs
-- Responsible AI controls using AWS Bedrock Guardrails
-- Prompt tracing, hallucination monitoring, and bias mitigation
+**Technology:** `Python` `LangChain` `AutoGen` `Agent K` `AWS Bedrock` `FastAPI` `Docker`
 
-### Technologies
+[View repository](https://github.com/Akarshanagoud/multi-agent-healthcare-workflows)
 
-`Python` `LangChain` `AutoGen` `Agent K` `LlamaIndex` `AWS Bedrock` `FastAPI` `Pydantic` `Docker` `Kubernetes`
+---
 
-### Repository
+### RAG Knowledge Assistant
 
-[Open multi-agent-healthcare-workflows](https://github.com/Akarshanagoud/multi-agent-healthcare-workflows)
+A production-style Retrieval-Augmented Generation application for document ingestion, chunking, embeddings, vector search, reranking, citations, and response evaluation.
 
-</details>
-
-<details>
-<summary><b>Enterprise RAG Knowledge Assistant</b></summary>
-
-### Overview
-
-A production-style RAG assistant for document ingestion, semantic chunking, embedding generation, vector search, contextual retrieval, grounded response generation, and source-aware question answering.
-
-### What It Demonstrates
+**Key capabilities**
 
 - Document ingestion and preprocessing
 - Semantic chunking and embeddings
-- FAISS, Pinecone, and Chroma integration
+- Vector search with FAISS, Pinecone, and Chroma
 - Contextual retrieval and reranking
-- Structured output extraction
-- Retrieval and response evaluation
-- API deployment using FastAPI
+- Source-aware answer generation
+- FastAPI-based deployment
 
-### Technologies
+**Technology:** `Python` `LangChain` `LlamaIndex` `FAISS` `Pinecone` `Chroma` `FastAPI`
 
-`Python` `LangChain` `LlamaIndex` `FAISS` `Pinecone` `Chroma` `Hugging Face` `FastAPI`
+[View repository](https://github.com/Akarshanagoud/rag-knowledge-assistant)
 
-### Repository
+---
 
-[Open rag-knowledge-assistant](https://github.com/Akarshanagoud/rag-knowledge-assistant)
+### LLM Inference Monitoring
 
-</details>
+An LLMOps reference platform for monitoring inference latency, throughput, prompt traces, response quality, and deployment reliability.
 
-<details>
-<summary><b>LLM Inference and Observability Platform</b></summary>
+**Key capabilities**
 
-### Overview
-
-A reference LLMOps platform for deploying and monitoring scalable inference services with a focus on latency, throughput, prompt tracing, validation, and production reliability.
-
-### What It Demonstrates
-
-- Low-latency LLM serving
-- vLLM and Triton inference concepts
-- TensorRT-LLM optimization
 - Prompt and response tracing
 - Latency and throughput monitoring
+- Structured response validation
 - Containerized deployment
-- Model and API observability
+- Model-serving observability
+- Production-readiness checks
 
-### Technologies
+**Technology:** `Python` `vLLM` `Triton` `TensorRT-LLM` `Docker` `Kubernetes` `AWS SageMaker`
 
-`Python` `vLLM` `Triton Inference Server` `TensorRT-LLM` `Docker` `Kubernetes` `AWS SageMaker`
+[View repository](https://github.com/Akarshanagoud/llm-inference-monitoring)
 
-### Repository
+---
 
-[Open llm-inference-monitoring](https://github.com/Akarshanagoud/llm-inference-monitoring)
+### Retail Forecasting and Recommender
 
-</details>
+A retail machine-learning platform combining demand forecasting, recommendation systems, feature engineering, experimentation, and drift monitoring.
 
-<details>
-<summary><b>Retail Forecasting and Recommendation System</b></summary>
+**Key capabilities**
 
-### Overview
+- Demand forecasting across SKU catalogs
+- Collaborative filtering
+- Matrix factorization
+- Customer segmentation
+- Product-return fraud detection
+- Automated retraining and monitoring
 
-A retail machine-learning system combining demand forecasting, recommendation models, feature engineering, experiment tracking, and model monitoring.
+**Technology:** `Python` `PySpark` `Scikit-learn` `Airflow` `MLflow` `AWS SageMaker`
 
-### What It Demonstrates
+[View repository](https://github.com/Akarshanagoud/retail-forecasting-recommender)
 
-- Demand forecasting across large SKU catalogs
-- Collaborative filtering and matrix factorization
-- Customer segmentation using K-Means and DBSCAN
-- Product-return fraud detection using Isolation Forest and autoencoders
-- Spark-based feature engineering
-- Automated retraining and drift monitoring
-- REST API deployment on AWS
+---
 
-### Results
+### AI Repository Intelligence
 
-- Reduced stockout incidents by **22%**
-- Reduced Spark feature-extraction runtime by **40%**
-- Improved product relevance and inventory decision-making
+An AI-powered codebase analysis tool for repository summarization, architecture discovery, dependency understanding, and developer-focused insights.
 
-### Technologies
-
-`Python` `PySpark` `Scikit-learn` `Airflow` `MLflow` `AWS SageMaker` `ECS`
-
-### Repository
-
-[Open retail-forecasting-recommender](https://github.com/Akarshanagoud/retail-forecasting-recommender)
-
-</details>
-
-<details>
-<summary><b>AI Repository Intelligence</b></summary>
-
-### Overview
-
-An AI-powered repository analysis project focused on understanding codebases, identifying important files, summarizing architecture, and generating repository-level technical insights.
-
-### What It Demonstrates
+**Key capabilities**
 
 - Repository structure analysis
-- Code understanding and summarization
-- Semantic search across source files
-- Architecture and dependency insights
-- Developer-focused AI assistance
+- Code summarization
+- Semantic source search
+- Architecture insights
+- Dependency understanding
 
-### Repository
+[View repository](https://github.com/Akarshanagoud/ai-repository-intelligence)
 
-[Open ai-repository-intelligence](https://github.com/Akarshanagoud/ai-repository-intelligence)
+---
 
-</details>
+### PromptGuard
 
-<details>
-<summary><b>PromptGuard</b></summary>
+A prompt-security project focused on validating inputs, filtering outputs, and reducing unsafe or unreliable behavior in LLM applications.
 
-### Overview
-
-A prompt-security project designed to validate, inspect, and protect LLM workflows against unsafe or unreliable prompts and outputs.
-
-### What It Demonstrates
+**Key capabilities**
 
 - Prompt validation
 - Input and output filtering
 - Guardrail concepts
+- Safer LLM workflow design
 - Responsible AI controls
-- Safer LLM application design
 
-### Repository
+[View repository](https://github.com/Akarshanagoud/promptguard)
 
-[Open promptguard](https://github.com/Akarshanagoud/promptguard)
+---
 
-</details>
+## Repository Cards
+
+<div align="center">
+
+<a href="https://github.com/Akarshanagoud/multi-agent-healthcare-workflows">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=multi-agent-healthcare-workflows&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/Akarshanagoud/rag-knowledge-assistant">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=rag-knowledge-assistant&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/Akarshanagoud/llm-inference-monitoring">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=llm-inference-monitoring&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/Akarshanagoud/ai-repository-intelligence">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=ai-repository-intelligence&theme=tokyonight&hide_border=true" />
+</a>
+
+</div>
 
 ---
 
@@ -211,9 +212,9 @@ A prompt-security project designed to validate, inspect, and protect LLM workflo
 ![QLoRA](https://img.shields.io/badge/QLoRA-9370DB?style=flat-square)
 ![PEFT](https://img.shields.io/badge/PEFT-483D8B?style=flat-square)
 ![vLLM](https://img.shields.io/badge/vLLM-00A86B?style=flat-square)
-![Triton](https://img.shields.io/badge/Triton_Inference_Server-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Triton](https://img.shields.io/badge/Triton-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-### Cloud, Data and DevOps
+### Cloud and Data
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
@@ -243,10 +244,10 @@ A prompt-security project designed to validate, inspect, and protect LLM workflo
 **March 2025 – Present**
 
 - Designed multi-agent AI systems for healthcare enterprise automation.
-- Built RAG pipelines with LlamaIndex, embeddings, and vector databases.
-- Engineered scalable inference using SageMaker, vLLM, Triton, and TensorRT-LLM.
-- Fine-tuned Hugging Face models with LoRA, QLoRA, and PEFT.
-- Improved multi-turn reasoning and function-calling accuracy by **36%**.
+- Built RAG pipelines using LlamaIndex, embeddings, and vector databases.
+- Engineered scalable inference with SageMaker, vLLM, Triton, and TensorRT-LLM.
+- Fine-tuned Hugging Face models using LoRA, QLoRA, and PEFT.
+- Improved multi-turn response accuracy by **36%**.
 - Implemented Responsible AI guardrails and hallucination monitoring.
 
 ### AI/ML Engineer — JPMorgan Chase
@@ -254,18 +255,18 @@ A prompt-security project designed to validate, inspect, and protect LLM workflo
 
 - Developed financial RAG systems and contextual question-answering workflows.
 - Built multi-agent services using AWS Lambda and containerized components.
-- Implemented Pydantic-based structured output validation.
-- Developed model deployment, retraining, explainability, and drift-monitoring pipelines.
+- Implemented structured output validation using Pydantic.
+- Developed model deployment, explainability, and drift-monitoring pipelines.
 - Integrated AI models with financial systems through Python APIs.
 
 ### Data Scientist — Walmart
 **June 2021 – July 2023**
 
 - Built demand forecasting models across hundreds of SKUs.
-- Developed recommendation systems using collaborative filtering and matrix factorization.
+- Developed collaborative filtering and matrix factorization recommenders.
 - Built customer segmentation and product-return fraud detection workflows.
 - Optimized multi-terabyte Spark ETL pipelines.
-- Automated model retraining and drift monitoring.
+- Automated retraining and model monitoring.
 - Deployed ML models as REST APIs on AWS.
 
 ---
@@ -288,19 +289,10 @@ A prompt-security project designed to validate, inspect, and protect LLM workflo
 
 ## Education and Certifications
 
-### Education
-
 - **Master of Science in Network and Computer Security** — SUNY Polytechnic Institute
 - **Bachelor of Science in Computer Science** — Methodist College of Engineering and Technology
 
-### Certifications
-
-- CompTIA Security+
-- Cisco Certified DevNet Associate
-- Google Cloud Certified
-- NDG Linux Essentials
-- Cisco Cybersecurity
-- Cisco Networking Essentials
+**Certifications:** CompTIA Security+ · Cisco Certified DevNet Associate · Google Cloud Certified · NDG Linux Essentials · Cisco Cybersecurity · Cisco Networking Essentials
 
 ---
 
