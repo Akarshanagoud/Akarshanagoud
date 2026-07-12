@@ -1,4 +1,6 @@
-<div align="center">
+from pathlib import Path
+
+readme = r'''<div align="center">
 
 <img src="./assets/ai-banner.svg" width="100%" alt="Akarshana Machanpally Naresh — Generative AI Engineer"/>
 
@@ -28,29 +30,23 @@ My work focuses on:
 - AWS and Azure AI infrastructure
 - Machine learning and large-scale data engineering
 
-I enjoy turning ambiguous business problems into secure, measurable, and production-ready AI solutions.
-
 ---
 
 ## Selected Impact
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="33%">
 <h3>36%</h3>
 <p>Improvement in multi-turn LLM response accuracy</p>
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 <h3>22%</h3>
 <p>Reduction in retail stockout incidents</p>
 </td>
-<td align="center" width="25%">
+<td align="center" width="33%">
 <h3>40%</h3>
-<p>Reduction in Spark feature extraction time</p>
-</td>
-<td align="center" width="25%">
-<h3>4+ Years</h3>
-<p>Building production AI and ML systems</p>
+<p>Reduction in Spark feature-extraction time</p>
 </td>
 </tr>
 </table>
@@ -59,111 +55,96 @@ I enjoy turning ambiguous business problems into secure, measurable, and product
 
 ## Featured Projects
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### Multi-Agent Healthcare Workflows
 
-A healthcare-focused agentic AI platform designed for document routing, retrieval, structured extraction, validation, and responsible AI controls.
+Healthcare-oriented agentic workflow for document routing, retrieval, structured extraction, validation, and responsible AI controls.
 
-**Key capabilities**
+**Tech:** `Python` `LangChain` `AutoGen` `Agent K` `AWS Bedrock` `FastAPI`
 
-- Multi-agent orchestration
-- Context-aware document retrieval
-- Structured outputs with Pydantic
-- REST API integration
-- Guardrails and validation
-- Prompt and trace observability
+[View repository →](https://github.com/Akarshanagoud/multi-agent-healthcare-workflows)
 
-**Technology:** `Python` `LangChain` `AutoGen` `Agent K` `AWS Bedrock` `FastAPI` `Docker`
+![Stars](https://img.shields.io/github/stars/Akarshanagoud/multi-agent-healthcare-workflows?style=flat-square)
+![Forks](https://img.shields.io/github/forks/Akarshanagoud/multi-agent-healthcare-workflows?style=flat-square)
 
-[View repository](https://github.com/Akarshanagoud/multi-agent-healthcare-workflows)
-
----
+</td>
+<td width="50%" valign="top">
 
 ### RAG Knowledge Assistant
 
-A production-style Retrieval-Augmented Generation application for document ingestion, chunking, embeddings, vector search, reranking, citations, and response evaluation.
+Production-style document question-answering application with ingestion, chunking, embeddings, vector search, reranking, and grounded responses.
 
-**Key capabilities**
+**Tech:** `Python` `LangChain` `LlamaIndex` `FAISS` `Pinecone` `Chroma`
 
-- Document ingestion and preprocessing
-- Semantic chunking and embeddings
-- Vector search with FAISS, Pinecone, and Chroma
-- Contextual retrieval and reranking
-- Source-aware answer generation
-- FastAPI-based deployment
+[View repository →](https://github.com/Akarshanagoud/rag-knowledge-assistant)
 
-**Technology:** `Python` `LangChain` `LlamaIndex` `FAISS` `Pinecone` `Chroma` `FastAPI`
+![Stars](https://img.shields.io/github/stars/Akarshanagoud/rag-knowledge-assistant?style=flat-square)
+![Forks](https://img.shields.io/github/forks/Akarshanagoud/rag-knowledge-assistant?style=flat-square)
 
-[View repository](https://github.com/Akarshanagoud/rag-knowledge-assistant)
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" valign="top">
 
 ### LLM Inference Monitoring
 
-An LLMOps reference platform for monitoring inference latency, throughput, prompt traces, response quality, and deployment reliability.
+LLMOps reference project for prompt tracing, response validation, latency monitoring, model-serving observability, and deployment reliability.
 
-**Key capabilities**
+**Tech:** `Python` `vLLM` `Triton` `TensorRT-LLM` `Docker` `Kubernetes`
 
-- Prompt and response tracing
-- Latency and throughput monitoring
-- Structured response validation
-- Containerized deployment
-- Model-serving observability
-- Production-readiness checks
+[View repository →](https://github.com/Akarshanagoud/llm-inference-monitoring)
 
-**Technology:** `Python` `vLLM` `Triton` `TensorRT-LLM` `Docker` `Kubernetes` `AWS SageMaker`
+![Stars](https://img.shields.io/github/stars/Akarshanagoud/llm-inference-monitoring?style=flat-square)
+![Forks](https://img.shields.io/github/forks/Akarshanagoud/llm-inference-monitoring?style=flat-square)
 
-[View repository](https://github.com/Akarshanagoud/llm-inference-monitoring)
-
----
+</td>
+<td width="50%" valign="top">
 
 ### Retail Forecasting and Recommender
 
-A retail machine-learning platform combining demand forecasting, recommendation systems, feature engineering, experimentation, and drift monitoring.
+Machine-learning portfolio project combining demand forecasting, recommendation systems, feature engineering, experimentation, and model monitoring.
 
-**Key capabilities**
+**Tech:** `Python` `PySpark` `Scikit-learn` `Airflow` `MLflow` `AWS`
 
-- Demand forecasting across SKU catalogs
-- Collaborative filtering
-- Matrix factorization
-- Customer segmentation
-- Product-return fraud detection
-- Automated retraining and monitoring
+[View repository →](https://github.com/Akarshanagoud/retail-forecasting-recommender)
 
-**Technology:** `Python` `PySpark` `Scikit-learn` `Airflow` `MLflow` `AWS SageMaker`
+![Stars](https://img.shields.io/github/stars/Akarshanagoud/retail-forecasting-recommender?style=flat-square)
+![Forks](https://img.shields.io/github/forks/Akarshanagoud/retail-forecasting-recommender?style=flat-square)
 
-[View repository](https://github.com/Akarshanagoud/retail-forecasting-recommender)
+</td>
+</tr>
 
----
+<tr>
+<td width="50%" valign="top">
 
 ### AI Repository Intelligence
 
-An AI-powered codebase analysis tool for repository summarization, architecture discovery, dependency understanding, and developer-focused insights.
+AI-assisted codebase analysis for repository summarization, semantic source search, architecture discovery, and developer insights.
 
-**Key capabilities**
+[View repository →](https://github.com/Akarshanagoud/ai-repository-intelligence)
 
-- Repository structure analysis
-- Code summarization
-- Semantic source search
-- Architecture insights
-- Dependency understanding
+![Stars](https://img.shields.io/github/stars/Akarshanagoud/ai-repository-intelligence?style=flat-square)
+![Forks](https://img.shields.io/github/forks/Akarshanagoud/ai-repository-intelligence?style=flat-square)
 
-[View repository](https://github.com/Akarshanagoud/ai-repository-intelligence)
-
----
+</td>
+<td width="50%" valign="top">
 
 ### PromptGuard
 
-A prompt-security project focused on validating inputs, filtering outputs, and reducing unsafe or unreliable behavior in LLM applications.
+Prompt-security project for validating inputs, filtering outputs, and applying responsible AI controls to LLM applications.
 
-**Key capabilities**
+[View repository →](https://github.com/Akarshanagoud/promptguard)
 
-- Prompt validation
-- Input and output filtering
-- Guardrail concepts
-- Safer LLM workflow design
-- Responsible AI controls
+![Stars](https://img.shields.io/github/stars/Akarshanagoud/promptguard?style=flat-square)
+![Forks](https://img.shields.io/github/forks/Akarshanagoud/promptguard?style=flat-square)
 
-[View repository](https://github.com/Akarshanagoud/promptguard)
+</td>
+</tr>
+</table>
 
 ---
 
@@ -172,22 +153,24 @@ A prompt-security project focused on validating inputs, filtering outputs, and r
 <div align="center">
 
 <a href="https://github.com/Akarshanagoud/multi-agent-healthcare-workflows">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=multi-agent-healthcare-workflows&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=multi-agent-healthcare-workflows&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="Multi-Agent Healthcare Workflows"/>
 </a>
 
 <a href="https://github.com/Akarshanagoud/rag-knowledge-assistant">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=rag-knowledge-assistant&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=rag-knowledge-assistant&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="RAG Knowledge Assistant"/>
 </a>
 
 <a href="https://github.com/Akarshanagoud/llm-inference-monitoring">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=llm-inference-monitoring&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=llm-inference-monitoring&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="LLM Inference Monitoring"/>
 </a>
 
 <a href="https://github.com/Akarshanagoud/ai-repository-intelligence">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=ai-repository-intelligence&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Akarshanagoud&repo=ai-repository-intelligence&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="AI Repository Intelligence"/>
 </a>
 
 </div>
+
+> The text-based project cards above remain visible even if the external image-card service is temporarily rate-limited.
 
 ---
 
@@ -195,46 +178,27 @@ A prompt-security project focused on validating inputs, filtering outputs, and r
 
 ### Generative AI
 
-![LLMs](https://img.shields.io/badge/LLMs-6C63FF?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-8A2BE2?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-4B0082?style=flat-square)
-![AutoGen](https://img.shields.io/badge/AutoGen-4169E1?style=flat-square)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6F00?style=flat-square)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+`LLMs` `RAG` `Prompt Engineering` `Vector Embeddings` `Semantic Search` `AI Agents` `Agentic Workflows` `Structured Output Extraction`
+
+### Frameworks and Fine-Tuning
+
+`LangChain` `LlamaIndex` `AutoGen` `CrewAI` `Agent K` `Hugging Face Transformers` `LoRA` `QLoRA` `PEFT`
 
 ### Machine Learning and Inference
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![LoRA](https://img.shields.io/badge/LoRA-7B68EE?style=flat-square)
-![QLoRA](https://img.shields.io/badge/QLoRA-9370DB?style=flat-square)
-![PEFT](https://img.shields.io/badge/PEFT-483D8B?style=flat-square)
-![vLLM](https://img.shields.io/badge/vLLM-00A86B?style=flat-square)
-![Triton](https://img.shields.io/badge/Triton-76B900?style=flat-square&logo=nvidia&logoColor=white)
+`PyTorch` `TensorFlow` `Scikit-learn` `vLLM` `TensorRT-LLM` `Triton Inference Server`
 
 ### Cloud and Data
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+`AWS` `Azure` `SageMaker` `Bedrock` `Azure ML` `Spark` `Airflow` `Kafka` `Snowflake`
 
-### Programming and Databases
+### Engineering
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+`Python` `SQL` `PySpark` `Scala` `Java` `FastAPI` `Docker` `Kubernetes` `GitHub Actions`
+
+### Databases
+
+`PostgreSQL` `SQL Server` `MySQL` `Oracle` `MongoDB` `Pinecone` `FAISS` `Chroma`
 
 ---
 
@@ -257,17 +221,17 @@ A prompt-security project focused on validating inputs, filtering outputs, and r
 - Built multi-agent services using AWS Lambda and containerized components.
 - Implemented structured output validation using Pydantic.
 - Developed model deployment, explainability, and drift-monitoring pipelines.
-- Integrated AI models with financial systems through Python APIs.
+- Integrated AI models with enterprise financial systems through Python APIs.
 
 ### Data Scientist — Walmart
 **June 2021 – July 2023**
 
 - Built demand forecasting models across hundreds of SKUs.
-- Developed collaborative filtering and matrix factorization recommenders.
+- Developed collaborative-filtering and matrix-factorization recommenders.
 - Built customer segmentation and product-return fraud detection workflows.
-- Optimized multi-terabyte Spark ETL pipelines.
-- Automated retraining and model monitoring.
-- Deployed ML models as REST APIs on AWS.
+- Reduced retail stockout incidents by **22%**.
+- Reduced Spark feature-extraction runtime by **40%**.
+- Deployed machine-learning models as REST APIs on AWS.
 
 ---
 
@@ -275,13 +239,19 @@ A prompt-security project focused on validating inputs, filtering outputs, and r
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Akarshanagoud&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight" alt="GitHub statistics"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akarshanagoud&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Most used languages"/>
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Akarshanagoud&theme=tokyonight" alt="GitHub profile details"/>
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akarshanagoud&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="GitHub activity graph"/>
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Akarshanagoud&theme=tokyonight" alt="Repositories per language"/>
+
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Akarshanagoud&theme=tokyonight" alt="Most used languages"/>
+
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Akarshanagoud&theme=tokyonight" alt="GitHub statistics"/>
+
+<br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Akarshanagoud&theme=tokyo-night&hide_border=true&area=true" alt="GitHub activity graph"/>
 
 </div>
 
@@ -292,7 +262,7 @@ A prompt-security project focused on validating inputs, filtering outputs, and r
 - **Master of Science in Network and Computer Security** — SUNY Polytechnic Institute
 - **Bachelor of Science in Computer Science** — Methodist College of Engineering and Technology
 
-**Certifications:** CompTIA Security+ · Cisco Certified DevNet Associate · Google Cloud Certified · NDG Linux Essentials · Cisco Cybersecurity · Cisco Networking Essentials
+**Certifications:** `CompTIA Security+` `Cisco Certified DevNet Associate` `Google Cloud Certified` `NDG Linux Essentials` `Cisco Cybersecurity` `Cisco Networking Essentials`
 
 ---
 
@@ -305,3 +275,9 @@ A prompt-security project focused on validating inputs, filtering outputs, and r
 [![GitHub](https://img.shields.io/badge/Explore_My_Work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Akarshanagoud?tab=repositories)
 
 </div>
+'''
+
+out = Path("/mnt/data/Akarshanagoud_Fixed_With_Cards_Analytics_README.md")
+out.write_text(readme, encoding="utf-8")
+print(out)
+print("Lines:", len(readme.splitlines()))
