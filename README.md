@@ -142,29 +142,12 @@ I treat safety, reliability, and monitoring as core product features rather than
 
 <img src="./assets/architecture.svg" width="100%" alt="Enterprise Generative AI reference architecture"/>
 
-```mermaid
-flowchart LR
-    U[User or Application] --> API[FastAPI / API Gateway]
-    API --> O[Agent Orchestrator]
-    O --> P[Planner Agent]
-    O --> R[Retrieval Agent]
-    O --> V[Validation Agent]
-    R --> VD[(Vector Database)]
-    R --> DS[(Enterprise Data)]
-    P --> LLM[Large Language Model]
-    VD --> LLM
-    DS --> LLM
-    LLM --> V
-    V --> G[Guardrails and Policy Layer]
-    G --> OUT[Grounded Response or Approved Action]
-    O --> OBS[Tracing, Metrics and Evaluation]
-```
 
 ---
 
 # Featured Projects
 
-> These project summaries are based on my professional experience and technical background. Repository links can be added to each card after the corresponding public repositories are confirmed.
+> Selected AI and machine-learning projects demonstrating agentic AI, RAG, LLMOps, forecasting, recommendation systems, and production engineering.
 
 <details open>
 <summary><b>01 — Enterprise Multi-Agent Healthcare Automation Platform</b></summary>
@@ -421,7 +404,7 @@ The resulting segments supported more targeted customer engagement and improved 
 
 # Repository Showcase
 
-Replace the placeholder links below with the exact repository URLs once the repositories are confirmed.
+Explore selected repositories and their engineering focus.
 
 <table>
 <tr>
@@ -451,11 +434,11 @@ Agent orchestration system with planning, retrieval, validation, tool usage, gua
 <tr>
 <td width="50%" valign="top">
 
-### LLM Fine-Tuning Pipeline
+### LLM Inference Monitoring
 
-Parameter-efficient fine-tuning workflow using LoRA, QLoRA, PEFT, experiment tracking, and evaluation.
+LLMOps reference platform for inference monitoring, prompt tracing, latency analysis, response validation, and deployment readiness.
 
-**Stack:** PyTorch, Hugging Face, PEFT, Transformers
+**Stack:** Python, LLMOps, observability, Docker, monitoring
 
 [Open repository](https://github.com/Akarshanagoud/llm-inference-monitoring)
 
@@ -654,7 +637,7 @@ timeline
 
 </div>
 
-> The included GitHub Actions workflow generates this animation automatically after the repository is created and Actions are enabled.
+> This animation appears after the included `snake.yml` workflow runs successfully and publishes the `output` branch.
 
 ---
 
