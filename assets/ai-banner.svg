@@ -1,0 +1,63 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#050816"/>
+    <stop offset="0.5" stop-color="#111044"/>
+    <stop offset="1" stop-color="#051B2F"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="140" y1="80" x2="1020" y2="290" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3AED"/>
+    <stop offset="0.5" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#34D399"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+
+<g opacity="0.28">
+  <circle cx="80" cy="55" r="2" fill="#67E8F9"/>
+  <circle cx="180" cy="110" r="2" fill="#A78BFA"/>
+  <circle cx="280" cy="65" r="2" fill="#34D399"/>
+  <circle cx="1030" cy="70" r="2" fill="#67E8F9"/>
+  <circle cx="1120" cy="135" r="2" fill="#A78BFA"/>
+  <circle cx="980" cy="250" r="2" fill="#34D399"/>
+</g>
+
+<g opacity="0.25" stroke="url(#accent)">
+  <path d="M0 280C170 210 260 350 430 270C600 190 680 310 850 220C1000 140 1100 220 1200 170"/>
+  <path d="M0 315C160 245 280 355 450 300C610 245 710 330 870 270C1020 215 1110 265 1200 220"/>
+</g>
+
+<g transform="translate(100 72)">
+  <circle cx="94" cy="104" r="76" stroke="url(#accent)" stroke-width="4" opacity="0.9"/>
+  <circle cx="94" cy="104" r="48" stroke="#67E8F9" stroke-width="2" opacity="0.7"/>
+  <circle cx="94" cy="104" r="10" fill="#A78BFA" filter="url(#glow)"/>
+  <path d="M94 28V0M94 208V180M18 104H-10M198 104H170M40 50L20 30M168 178L148 158M148 50L168 30M20 178L40 158"
+        stroke="#67E8F9" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="94" cy="28" r="5" fill="#34D399"/>
+  <circle cx="94" cy="180" r="5" fill="#34D399"/>
+  <circle cx="18" cy="104" r="5" fill="#A78BFA"/>
+  <circle cx="170" cy="104" r="5" fill="#A78BFA"/>
+</g>
+
+<text x="330" y="125" fill="white" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="700">
+  AKARSHANA MACHANPALLY NARESH
+</text>
+<text x="333" y="174" fill="#67E8F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="600">
+  GENERATIVE AI ENGINEER
+</text>
+<text x="333" y="220" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">
+  Multi-Agent Systems • Enterprise RAG • LLMOps • Cloud AI
+</text>
+<rect x="333" y="250" width="610" height="2" rx="1" fill="url(#accent)"/>
+<text x="333" y="292" fill="#94A3B8" font-family="JetBrains Mono,Consolas,monospace" font-size="17">
+  Building useful, grounded, observable and production-ready AI.
+</text>
+</svg>
